@@ -97,5 +97,66 @@ hr{
     margin-bottom: 20px;
 }
 
+table{
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 2;
+}
+
+.detail{
+    color: var(--Nutmeg);
+}
+
+.attribution{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    gap: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--Dark-Raspberry);
+}
 
 /* Media Queries */
+
+@media screen and (max-width:375px){
+    .main-container{
+        margin-top: 0;
+        margin-bottom: 8px;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .title{
+        font-size: 42px;
+        line-height: 1;
+    }
+
+    .other-title{
+        font-size: 32px;
+    }
+
+    .prep-title{
+        font-size: 20px;
+    }
+
+    .omelette-img{
+        margin-top: 0;
+        width: 100vw;
+        border-radius: 0;
+    }
+
+    .intro{
+        padding: 30px;
+    }
+
+    .attribution{
+        flex-direction: column;
+    }
+
+}
